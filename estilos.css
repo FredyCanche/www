@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e30f87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1200px;
+    background: rgb(233, 170, 170);
+    margin: 10px auto;
+}
+.superior{
+    background: rgb(248, 227, 227);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+/*estilos para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 55px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid rgb(9, 0, 0);
+}
+.opciones li a:hover{
+    background: rgb(219, 80, 80);
+}
+/*estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid;
+}
+.subtitulo{
+    background: #f061b2;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    padding: 15px 20px;
+    margin: 20px 0 ;
+    color: white;
+    background: #9d3f74;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: #541a3b;
+    cursor:pointer;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: rgb(46, 7, 54);
+    font-size: 35px;
+}
+/*estilos del footer*/
+.pie{
+    background: rgb(248, 227, 227);
+    overflow: hidden;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.abajo{
+    color:black;
+    font-size: 12px;
+    padding: 10px;
+}
+.siguenos{
+    text-align: center;
+    color: black;
+    padding: 60px 0;
+}
